@@ -87,6 +87,17 @@
                 buttonText: 'Get Max',
                 buttonVariant: 'primary',
             }
+                const UltraPlan = {
+                title: 'Ultra',
+                price: '$100/mo.',
+                includesText: 'Everything in Max, plus:',
+                features: [
+                    'Unlimited Agents',
+                    'Priority support',
+                ],
+                buttonText: 'Get Ultra',
+                buttonVariant: 'tertiary',
+            }
 
             return (
                 // <> is a React Fragment - it groups elements without adding extra HTML divs
@@ -98,6 +109,7 @@
                         <PricingCard {...hobbyPlan} />
                         <PricingCard {...proPlan} />
                         <PricingCard {...maxPlan} />
+                        <PricingCard {...UltraPlan} />
                     </div>
                 </>
             );

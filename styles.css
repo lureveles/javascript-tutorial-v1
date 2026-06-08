@@ -48,10 +48,9 @@ body {
 }
 
 .card-price {
-    font-size: 20px;
-    color: rgba(38, 37, 30, 0.5);
     display: inline-flex;
     align-items: baseline;
+    gap: 4px;
 }
 
 .card-price-amount {
@@ -62,7 +61,7 @@ body {
 
 .card-price-period {
     font-size: 14px;
-    color: rgba(38, 37, 30, 0.5);
+    color: rgba(38, 37, 30, 0.4);
 }
 
 .card-content {

@@ -48,6 +48,7 @@ body {
 }
 
 .card-price {
+    font-size: 20px;
     display: inline-flex;
     align-items: baseline;
     gap: 4px;
